@@ -1,5 +1,6 @@
 package dev.brachtendorf.jimagehash.hashAlgorithms;
 
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.math.BigInteger;
 import java.util.Objects;
@@ -7,7 +8,6 @@ import java.util.Objects;
 
 import dev.brachtendorf.graphics.FastPixel;
 import dev.brachtendorf.jimagehash.hash.Hash;
-import javafx.scene.paint.Color;
 
 /**
  * Calculates a hash based on gradient tracking. This hash is cheap to compute

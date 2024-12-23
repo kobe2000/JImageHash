@@ -307,7 +307,7 @@ public abstract class HashingAlgorithm implements Serializable {
 			 */
 			if (this.opaqueReplacementColor == null) {
 
-				javafx.scene.paint.Color interpolatedColor = ImageUtil.interpolateColor(image);
+				Color interpolatedColor = ImageUtil.interpolateColor(image);
 				Color replacementColor = ColorUtil.getContrastColor(ColorUtil.fxToAwtColor(interpolatedColor));
 				fp.setReplaceOpaqueColors(this.opaqueReplacementThreshold, replacementColor);
 			} else {

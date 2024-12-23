@@ -1,5 +1,6 @@
 package dev.brachtendorf.jimagehash.hash;
 
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,7 +15,6 @@ import dev.brachtendorf.Require;
 import dev.brachtendorf.StringUtil;
 import dev.brachtendorf.graphics.FastPixel;
 import dev.brachtendorf.jimagehash.hashAlgorithms.HashingAlgorithm;
-import javafx.scene.paint.Color;
 
 /**
  * Hashes are bit encoded encoded values (0101011101) created from images using
